@@ -1,0 +1,22 @@
+{
+  "name": "amazon-products-backend",
+  "version": "1.0.0",
+  "description": "Scrape Amazon products",
+  "main": "index.js",
+  "scripts": {
+    "app": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Renan Siqueira",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsdom": "^24.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
